@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { BookOpen, Users, Heart, Lightbulb } from "lucide-react";
+import { BookOpen, Users, Heart, Cross } from "lucide-react";
 
 const About = () => {
   const values = [
@@ -19,7 +19,7 @@ const About = () => {
       description: "Serving our campus, local community, and beyond with the love of Christ."
     },
     {
-      icon: Lightbulb,
+      icon: Cross,
       title: "Growth",
       description: "Encouraging spiritual, academic, and personal development in every member."
     }
@@ -29,11 +29,12 @@ const About = () => {
     <section id="about" className="py-20 bg-section-gradient">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-6">About SCO</h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            The Student Christian Organization at the University of Venda is a vibrant community 
+          <h2 className="text-4xl font-heading font-bold text-foreground mb-6">About Us</h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed font-body">
+            "As iron sharpens iron, so one person sharpens another." - Proverbs 27:17
+            <span className="block mt-4">The Student Christian Organization at the University of Venda is a vibrant community 
             of believers dedicated to growing in faith, building relationships, and making a 
-            positive impact on our campus and beyond.
+            positive impact on our campus and beyond.</span>
           </p>
         </div>
 

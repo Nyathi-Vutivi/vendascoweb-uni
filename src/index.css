@@ -17,19 +17,19 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 85% 15%;
 
-    --primary: 220 91% 48%;
+    --primary: 200 95% 60%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 220 91% 70%;
-    --primary-dark: 220 91% 30%;
+    --primary-light: 200 95% 80%;
+    --primary-dark: 200 95% 40%;
 
-    --secondary: 220 15% 95%;
-    --secondary-foreground: 220 85% 15%;
+    --secondary: 0 0% 98%;
+    --secondary-foreground: 220 13% 18%;
 
-    --muted: 220 15% 97%;
-    --muted-foreground: 220 25% 45%;
+    --muted: 200 20% 97%;
+    --muted-foreground: 220 13% 50%;
 
-    --accent: 220 91% 88%;
-    --accent-foreground: 220 85% 15%;
+    --accent: 45 90% 75%;
+    --accent-foreground: 220 13% 18%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
@@ -39,12 +39,13 @@ All colors MUST be HSL.
     --ring: 220 91% 48%;
 
     /* SCO Custom Design Tokens */
-    --hero-gradient: linear-gradient(135deg, hsl(220 91% 48%), hsl(220 91% 70%));
-    --section-bg: linear-gradient(180deg, hsl(0 0% 100%), hsl(220 15% 98%));
-    --card-shadow: 0 10px 30px -10px hsl(220 91% 48% / 0.1);
-    --card-shadow-hover: 0 20px 40px -10px hsl(220 91% 48% / 0.2);
-    --text-gradient: linear-gradient(135deg, hsl(220 91% 48%), hsl(220 91% 30%));
-    --glow-blue: 0 0 40px hsl(220 91% 70% / 0.3);
+    --hero-gradient: linear-gradient(135deg, hsl(200 95% 60%), hsl(200 95% 80%));
+    --section-bg: linear-gradient(180deg, hsl(0 0% 100%), hsl(200 20% 98%));
+    --card-shadow: 0 8px 32px -8px hsl(200 95% 60% / 0.08);
+    --card-shadow-hover: 0 16px 48px -8px hsl(200 95% 60% / 0.15);
+    --text-gradient: linear-gradient(135deg, hsl(200 95% 60%), hsl(45 90% 75%));
+    --glow-blue: 0 0 40px hsl(200 95% 80% / 0.3);
+    --golden-glow: 0 0 30px hsl(45 90% 75% / 0.4);
 
     --radius: 0.5rem;
 

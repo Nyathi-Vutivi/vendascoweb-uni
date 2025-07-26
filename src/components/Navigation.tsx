@@ -7,10 +7,10 @@ const Navigation = () => {
 
   const navItems = [
     { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
-    { name: "Leadership", href: "#leadership" },
-    { name: "Services", href: "#services" },
-    { name: "Team", href: "#team" },
+    { name: "About Us", href: "#about" },
+    { name: "Service Times", href: "#service-times" },
+    { name: "Our Mission", href: "#mission" },
+    { name: "Events", href: "#events" },
     { name: "Contact", href: "#contact" },
   ];
 

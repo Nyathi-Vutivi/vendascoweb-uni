@@ -1,4 +1,4 @@
-import { Heart, Mail, Phone, MapPin } from "lucide-react";
+import { Heart, Mail, Phone, MapPin, Facebook, Instagram, Youtube, Cross, BookOpen, Users } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -26,24 +26,25 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Organization Info */}
           <div className="lg:col-span-1">
-            <div className="text-3xl font-bold mb-4">SCO</div>
-            <p className="text-primary-light mb-6 leading-relaxed">
-              Student Christian Organization at the University of Venda. 
-              Building a community of faith where students grow in Christ and serve together.
+            <div className="flex items-center mb-4">
+              <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center mr-3">
+                <Cross className="h-6 w-6 text-primary" />
+              </div>
+              <div className="text-3xl font-heading font-bold">SCO</div>
+            </div>
+            <p className="text-primary-light mb-6 leading-relaxed font-body">
+              "Therefore encourage one another and build each other up" - 1 Thessalonians 5:11
             </p>
-            <div className="space-y-2 text-sm text-primary-light">
-              <div className="flex items-center">
-                <Mail className="h-4 w-4 mr-2" />
-                info@sco-univen.org
-              </div>
-              <div className="flex items-center">
-                <Phone className="h-4 w-4 mr-2" />
-                +27 15 962 8000
-              </div>
-              <div className="flex items-center">
-                <MapPin className="h-4 w-4 mr-2" />
-                University of Venda, Thohoyandou
-              </div>
+            <div className="flex space-x-4 mb-6">
+              <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors">
+                <Facebook className="h-5 w-5" />
+              </a>
+              <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors">
+                <Instagram className="h-5 w-5" />
+              </a>
+              <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors">
+                <Youtube className="h-5 w-5" />
+              </a>
             </div>
           </div>
 

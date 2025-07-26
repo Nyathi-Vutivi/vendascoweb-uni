@@ -1,21 +1,21 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Leadership from "@/components/Leadership";
-import Services from "@/components/Services";
-import Team from "@/components/Team";
+import ServiceTimes from "@/components/ServiceTimes";
+import Mission from "@/components/Mission";
+import Events from "@/components/Events";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen font-body">
       <Navigation />
       <Hero />
       <About />
-      <Leadership />
-      <Services />
-      <Team />
+      <ServiceTimes />
+      <Mission />
+      <Events />
       <Contact />
       <Footer />
     </div>

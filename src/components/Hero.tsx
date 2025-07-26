@@ -17,14 +17,14 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="animate-fadeIn">
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            Student Christian
-            <span className="block text-primary-light">Organization</span>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold mb-6 leading-tight">
+            Welcome to
+            <span className="block text-accent font-semibold">Student Christian Organization</span>
           </h1>
           
-          <p className="text-xl sm:text-2xl mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed">
-            Building a community of faith at the University of Venda. 
-            Where students grow in Christ and serve together.
+          <p className="text-lg sm:text-xl mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed font-body">
+            "For where two or three gather in my name, there am I with them." - Matthew 18:20
+            <span className="block mt-2 text-base">Join our vibrant community of faith at the University of Venda</span>
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">

@@ -103,7 +103,12 @@ export default {
 			boxShadow: {
 				'card': 'var(--card-shadow)',
 				'card-hover': 'var(--card-shadow-hover)',
-				'glow-blue': 'var(--glow-blue)'
+				'glow-blue': 'var(--glow-blue)',
+				'golden-glow': 'var(--golden-glow)'
+			},
+			fontFamily: {
+				'heading': ['Inter', 'system-ui', 'sans-serif'],
+				'body': ['Inter', 'system-ui', 'sans-serif']
 			},
 			keyframes: {
 				'accordion-down': {
